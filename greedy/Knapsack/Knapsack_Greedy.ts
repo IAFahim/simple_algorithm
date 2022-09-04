@@ -95,6 +95,7 @@ class Knapsack_Greedy {
                 selectedItem.push(this.greedy_data[i]);
                 currentWeight += this.greedy_data[i].weight;
                 currentBenefit += this.greedy_data[i].benefit;
+                this.greedy_data[i].taken=this.greedy_data[i].weight;
                 this.greedy_data[i].weight=0;
             } else {
                 selectedItem.push(this.greedy_data[i]);

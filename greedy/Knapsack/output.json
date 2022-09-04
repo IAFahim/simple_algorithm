@@ -6,19 +6,22 @@
       "weight": 0,
       "benefit": 7,
       "index_or_label": 0,
-      "benefit_by_weight_Ratio": 3.5
+      "benefit_by_weight_Ratio": 3.5,
+      "taken": 2
     },
     {
       "weight": 0,
       "benefit": 6,
       "index_or_label": 3,
-      "benefit_by_weight_Ratio": 3
+      "benefit_by_weight_Ratio": 3,
+      "taken": 2
     },
     {
       "weight": 0,
       "benefit": 3,
       "index_or_label": 6,
-      "benefit_by_weight_Ratio": 3
+      "benefit_by_weight_Ratio": 3,
+      "taken": 1
     },
     {
       "weight": 2,
