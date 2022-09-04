@@ -1,0 +1,46 @@
+{
+  "greedy_data": [
+    {
+      "weight": 2,
+      "benefit": 7,
+      "index_or_label": 0,
+      "benefit_by_weight_Ratio": 3.5
+    },
+    {
+      "weight": 3,
+      "benefit": 6,
+      "index_or_label": 1,
+      "benefit_by_weight_Ratio": 2
+    },
+    {
+      "weight": 4,
+      "benefit": 9,
+      "index_or_label": 2,
+      "benefit_by_weight_Ratio": 2.25
+    },
+    {
+      "weight": 2,
+      "benefit": 6,
+      "index_or_label": 3,
+      "benefit_by_weight_Ratio": 3
+    },
+    {
+      "weight": 5,
+      "benefit": 12,
+      "index_or_label": 4,
+      "benefit_by_weight_Ratio": 2.4
+    },
+    {
+      "weight": 4,
+      "benefit": 10,
+      "index_or_label": 5,
+      "benefit_by_weight_Ratio": 2.5
+    },
+    {
+      "weight": 1,
+      "benefit": 3,
+      "index_or_label": 6,
+      "benefit_by_weight_Ratio": 3
+    }
+  ]
+}

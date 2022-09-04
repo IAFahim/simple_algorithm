@@ -60,7 +60,7 @@ class Knapsack_Greedy {
         return [currentWeight, currentBenefit, selectedItem];
     }
 
-    getKnapsack_AsManyAsPossible_withLimit_max(maxStorage: number): [number, number, Knapsack_Greedy_Data[]] {
+    getKnapsack_AsManyAsPossible_withLimit_fractional(maxStorage: number): [number, number, Knapsack_Greedy_Data[]] {
         this.sortBy_benefit_by_weight_Ratio_desc();
 
         let currentWeight = 0;
@@ -84,7 +84,7 @@ class Knapsack_Greedy {
     }
 
 
-    getKnapsack_AsManyAsPossible_withLimit_max_subtract(maxStorage: number): [number, number, Knapsack_Greedy_Data[]] {
+    getKnapsack_AsManyAsPossible_withLimit_fractional_subtract(maxStorage: number): [number, number, Knapsack_Greedy_Data[]] {
         this.sortBy_benefit_by_weight_Ratio_desc();
 
         let currentWeight = 0;
@@ -111,7 +111,7 @@ class Knapsack_Greedy {
 
 }
 
-function test_knapsack_selection() {
+function test_knapsack_selection_1() {
     let weight = [2, 3, 4, 2, 5, 4, 1];
     let price = [7, 6, 9, 6, 12, 10, 3];
     let greedy_data_Knapsack = [];
@@ -120,9 +120,9 @@ function test_knapsack_selection() {
     }
 
     let greedy = new Knapsack_Greedy(greedy_data_Knapsack);
-    console.log(greedy.getKnapsack_AsManyAsPossible_withLimit(7));
-    console.log(greedy.getKnapsack_AsManyAsPossible_withLimit_max(7));
-
+    console.log(JSON.stringify(greedy))
+    console.log(JSON.stringify(greedy.getKnapsack_AsManyAsPossible_withLimit_fractional_subtract(7)));
 }
 
-test_knapsack_selection();
+
+test_knapsack_selection_1();
