@@ -122,7 +122,7 @@ function test_knapsack_selection_1() {
 
     let greedy = new Knapsack_Greedy(greedy_data_Knapsack);
     console.log(JSON.stringify(greedy))
-    console.log(JSON.stringify(greedy.getKnapsack_AsManyAsPossible_withLimit_fractional_subtract(7)));
+    console.log(JSON.stringify(greedy.getKnapsack_AsManyAsPossible_withLimit_fractional_subtract(15)));
 }
 
 

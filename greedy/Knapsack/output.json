@@ -1,6 +1,6 @@
 [
-  7,
-  21,
+  15,
+  40.25,
   [
     {
       "weight": 0,
@@ -24,11 +24,25 @@
       "taken": 1
     },
     {
-      "weight": 2,
+      "weight": 0,
       "benefit": 10,
       "index_or_label": 5,
       "benefit_by_weight_Ratio": 2.5,
-      "taken": 2
+      "taken": 4
+    },
+    {
+      "weight": 0,
+      "benefit": 12,
+      "index_or_label": 4,
+      "benefit_by_weight_Ratio": 2.4,
+      "taken": 5
+    },
+    {
+      "weight": 3,
+      "benefit": 9,
+      "index_or_label": 2,
+      "benefit_by_weight_Ratio": 2.25,
+      "taken": 1
     }
   ]
 ]
