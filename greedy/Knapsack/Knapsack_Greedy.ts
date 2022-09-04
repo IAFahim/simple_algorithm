@@ -76,7 +76,7 @@ class Knapsack_Greedy {
                 let lastTaken_inFraction = Math.min(this.greedy_data[i].weight, maxStorage - currentWeight);
                 this.greedy_data[i].taken = lastTaken_inFraction;
                 currentWeight += lastTaken_inFraction;
-                currentBenefit += this.greedy_data[i].benefit * (lastTaken_inFraction / this.greedy_data[i].weight);
+                currentBenefit += this.greedy_data[i].benefit * lastTaken_inFraction ;
                 break;
             }
         }
@@ -102,7 +102,7 @@ class Knapsack_Greedy {
                 let lastTaken_inFraction = Math.min(this.greedy_data[i].weight, maxStorage - currentWeight);
                 this.greedy_data[i].taken = lastTaken_inFraction;
                 currentWeight += lastTaken_inFraction;
-                currentBenefit += this.greedy_data[i].benefit * (lastTaken_inFraction / this.greedy_data[i].weight);
+                currentBenefit += this.greedy_data[i].benefit * lastTaken_inFraction ;
                 this.greedy_data[i].weight -= lastTaken_inFraction;
                 break;
             }
